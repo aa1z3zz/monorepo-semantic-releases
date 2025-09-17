@@ -29,6 +29,8 @@ module.exports = {
   github: {
     release: true,
     releaseName: `${packageName}-v${version}`,
+    repo: 'monorepo-semantic-releases',
+    owner: 'aa1z3zz',
   },
   hooks: {
     'before:git:release': [
